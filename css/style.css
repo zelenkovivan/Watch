@@ -1,0 +1,213 @@
+body{
+  font-family: 'League Spartan', sans-serif;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 50px;
+  color: #161515;
+}
+
+a{
+  text-decoration: none;
+}
+
+.container{
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.header__inner{
+  display: flex;
+  margin-bottom: 211px;
+}
+
+.header__top{
+  padding: 104px 0 53px;
+  font-size: 24px;
+  line-height: 45px;
+}
+
+.header__title{
+  font-weight: 300;
+  font-size: 250px;
+  line-height: 230px;
+}
+
+.header__text{
+  max-width: 575px;
+  max-height: 142px;
+  padding: 43px 0 87px;
+}
+
+.button{
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 29px;
+  padding: 26px 74px 30px 73px;
+  background-color: #161515;
+  color: #fff;
+  position: relative;
+}
+
+.button::after{
+  content: '1700$';
+  position: absolute;
+  color: #161515;
+  margin-left: 102px;
+  top: 28px;
+}
+
+.header__images{
+  margin-left: 30px;
+}
+
+.popular__content{
+  text-align: center;
+}
+
+.popular__models{
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 81px; 
+}
+
+.popular__images-son22{
+  margin: 194px 0 177px;
+}
+
+.popular__title{
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 29px;
+  margin-bottom: 17px;
+}
+
+.popular__text{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 531px;
+}
+
+.popular__images-sw12{
+  margin: 150px 0 132px;
+}
+
+.footer__content{
+  text-align: center;
+}
+
+.footer__title{
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 59px;
+  margin-top: 160px;
+}
+
+.footer__line{
+  width: 178px;
+  height: 1px;
+  background-color: #707070;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer__text{
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 40px;
+  max-width: 515px;
+  margin: 50px auto 140px auto;
+}
+
+@media (max-width: 1100px){
+  .header__inner{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .header__text{
+    padding-bottom: 650px;
+  }
+
+  .header__images{
+    position: absolute;
+    margin-top: 625px;
+    margin-left: 0;
+    width: 330px;
+  }
+}
+
+@media (max-width: 670px){
+  .header__inner{
+    text-align: center;
+  }
+
+  .header__text {
+    max-width: 100%;
+    line-height: 46px;
+  }
+
+  .header__top{
+    padding-top: 50px;
+  }
+
+  .header__title {
+    font-weight: 300;
+    font-size: 180px;
+    line-height: 120px;
+  }
+
+    .button::after{
+      display: none;
+    }
+
+  .header__images{
+    margin-top: 550px;
+    width: 300px;
+  }
+
+  .popular__images-son22{
+    margin: 50px 0 50px;
+  }
+
+  .popular__images-sw12 {
+    margin: 50px 0 50px;
+  }
+}
+
+@media (max-width: 470px){
+
+  .header__inner {
+      margin-bottom: 100px;
+    }
+
+  .header__title{
+    font-size: 85px;
+  }
+
+  .header__top {
+    padding: 20px 0 0;
+  }
+
+  .header__text{
+    line-height: 40px;
+    padding-top: 0;
+  }
+
+  .header__images {
+    margin-top: 450px;
+    width: 270px;
+  }
+
+  .header__inner {
+    margin-bottom: 100px;
+  }
+
+  .button{
+    padding: 24px 70px 24px 70px;
+  }
+
+  .footer__title{
+    margin-top:75px;
+  }
+}
